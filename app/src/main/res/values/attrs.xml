@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArcProgressBar">
+        <attr name="progress" format="integer" />
+        <attr name="start_angle" format="integer" />
+        <attr name="end_angle" format="integer" />
+        <attr name="stroke_width" format="dimension" />
+        <attr name="max" format="integer" />
+        <attr name="radius" format="dimension" />
+        <!-- colors of the finished and unfinished progress-->
+        <attr name="unfinished_color" format="color" />
+        <attr name="finished_color" format="color" />
+    </declare-styleable>
+</resources>
